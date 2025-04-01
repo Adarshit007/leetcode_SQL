@@ -9,6 +9,7 @@
 | [0178-rank-scores](https://github.com/Adarshit007/leetcode_SQL/tree/master/0178-rank-scores) |
 | [0180-consecutive-numbers](https://github.com/Adarshit007/leetcode_SQL/tree/master/0180-consecutive-numbers) |
 | [0181-employees-earning-more-than-their-managers](https://github.com/Adarshit007/leetcode_SQL/tree/master/0181-employees-earning-more-than-their-managers) |
+| [0182-duplicate-emails](https://github.com/Adarshit007/leetcode_SQL/tree/master/0182-duplicate-emails) |
 | [0197-rising-temperature](https://github.com/Adarshit007/leetcode_SQL/tree/master/0197-rising-temperature) |
 | [0584-find-customer-referee](https://github.com/Adarshit007/leetcode_SQL/tree/master/0584-find-customer-referee) |
 | [0595-big-countries](https://github.com/Adarshit007/leetcode_SQL/tree/master/0595-big-countries) |
