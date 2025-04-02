@@ -1,4 +1,9 @@
 /* Write your T-SQL query statement below */
-delete p2 from person p1
-join person p2
-on p1.email=p2.email and p1.id<p2.id
+delete from
+person
+where id not in(
+    select
+    min(id)
+    from person
+    Group by email
+)
