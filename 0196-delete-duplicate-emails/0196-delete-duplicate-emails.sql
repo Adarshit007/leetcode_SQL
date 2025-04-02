@@ -1,9 +1,15 @@
 /* Write your T-SQL query statement below */
-delete from
-person
-where id not in(
-    select
-    min(id)
-    from person
-    Group by email
+with cte as(
+    select 
+    id,
+    emAIL,
+    ROW_NUMBER() OVER(PARTITION BY EMAIL ORDER BY ID) AS ROW_NO
+    FROM PERSON
+)
+DELETE FROM PERSON
+WHERE ID IN(
+    SELECT
+    ID
+    FROM CTE
+    WHERE ROW_NO>1
 )
